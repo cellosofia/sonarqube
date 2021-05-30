@@ -28,7 +28,7 @@ objects:
         containers:
         - name: sonarqube
           imagePullPolicy: Always
-          image: docker.io/sonarqube:8-community
+          image: registry.test.data/cellosofia/sonarqube:8-community
           ports:
           - containerPort: 9000
             protocol: TCP
